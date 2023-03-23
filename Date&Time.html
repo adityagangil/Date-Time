@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display Current Date and Time</title>
+	<script>
+		function displayDateTime() {
+			var currentDateTime = new Date();
+			document.getElementById("datetime").innerHTML = currentDateTime;
+		}
+	</script>
+</head>
+<body>
+	<h1>Click the button to display current date and time:</h1>
+	<button onclick="displayDateTime()">Display Date and Time</button>
+	<p id="datetime"></p>
+</body>
+</html>
